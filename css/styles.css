@@ -27,9 +27,9 @@ ul {
 
 /* site nav */
 
-.site-nav {
+.site-nav .link{
     color: #212121;
-    
+
 }
 
 .site-nav .link:hover, 
@@ -38,16 +38,18 @@ ul {
 
 }
 
-.contacts {
+.contacts .contacts-link {
 color:#757575;
 }
 
-.contacts .link:hover,
-.contacts .link:focus{
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus{
     color:#2196F3;
 
 }
-
+.hero-title {
+    color: #fff;
+}
 .hero>button {
     background-color: #2196F3;
     color: #fff;
@@ -59,9 +61,27 @@ color:#757575;
 
 .portfolio {
     color:  #212121;
-
 }
+
 .team-title, 
 .team-name {
 color:#212121;
+}
+
+.address-google {
+color: #fff;
+}
+
+.address-google:hover,
+.address-google:focus {
+    color:#2196F3;
+}
+
+.address-link {
+    color:  rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color:#2196F3
 }
