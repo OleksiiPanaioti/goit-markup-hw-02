@@ -1,0 +1,67 @@
+/* #2196F3 accent color */
+/* #212121; secondary text colot */
+/* main white  #212121; */
+/* main black  text color #757575; */
+/* secondary bcg #F5F4FA */
+/* main bgc #F5F5F5 */
+/* bgc super white #fff */
+/* hero bgc background: #2F303A; */
+
+
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color:#212121;
+
+}
+.logo>span {
+    color: #2196F3;
+}
+
+/* site nav */
+
+.site-nav {
+    color: #212121;
+    
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color:#2196F3
+
+}
+
+.contacts {
+color:#757575;
+}
+
+.contacts .link:hover,
+.contacts .link:focus{
+    color:#2196F3;
+
+}
+
+.hero>button {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.section-title {
+    color: #212121;
+}
+
+.portfolio {
+    color:  #212121;
+
+}
+.team-title, 
+.team-name {
+color:#212121;
+}
