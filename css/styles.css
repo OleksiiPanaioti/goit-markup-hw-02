@@ -114,13 +114,19 @@ body {
     background-color: var(--accent-color);
 }
 
-.button-hero .primary{
+/* .btn-hero.primary{
     color: var(--white-text);
     background-color: var(--accent-color);
 }
-.button-hero .secondary{
+.btn-hero.secondary{
     color: var(--secondary-text);
     background-color: var(--grey-bcg);
+} */
+
+.btn-hero:hover {
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    transition: 0.7s;
 }
 
 /* portfolio button */
@@ -129,6 +135,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.88;
+    border-radius: 4px;
+    border: none;
     display: flex;
     align-items: center;
     text-align: center;
@@ -147,6 +155,11 @@ body {
     background-color: var(--accent-color);
 }
 
+.btn:hover, .btn:focus{
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    transition: 0.7s;
+}
 
 .visually-hidden {
     position: absolute;
